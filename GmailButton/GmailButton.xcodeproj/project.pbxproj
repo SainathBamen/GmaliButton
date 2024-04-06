@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FF77692BC00D880022B401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF77682BC00D880022B401 /* AppDelegate.swift */; };
+		04FF776B2BC00D880022B401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF776A2BC00D880022B401 /* SceneDelegate.swift */; };
+		04FF776D2BC00D880022B401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF776C2BC00D880022B401 /* ViewController.swift */; };
+		04FF77702BC00D880022B401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FF776E2BC00D880022B401 /* Main.storyboard */; };
+		04FF77732BC00D880022B401 /* GmailButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FF77712BC00D880022B401 /* GmailButton.xcdatamodeld */; };
+		04FF77752BC00D8D0022B401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FF77742BC00D8D0022B401 /* Assets.xcassets */; };
+		04FF77782BC00D8D0022B401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FF77762BC00D8D0022B401 /* LaunchScreen.storyboard */; };
+		04FF77832BC00D8D0022B401 /* GmailButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF77822BC00D8D0022B401 /* GmailButtonTests.swift */; };
+		04FF778D2BC00D8E0022B401 /* GmailButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF778C2BC00D8E0022B401 /* GmailButtonUITests.swift */; };
+		04FF778F2BC00D8E0022B401 /* GmailButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF778E2BC00D8E0022B401 /* GmailButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FF777F2BC00D8D0022B401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FF775D2BC00D880022B401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FF77642BC00D880022B401;
+			remoteInfo = GmailButton;
+		};
+		04FF77892BC00D8E0022B401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FF775D2BC00D880022B401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FF77642BC00D880022B401;
+			remoteInfo = GmailButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FF77652BC00D880022B401 /* GmailButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FF77682BC00D880022B401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FF776A2BC00D880022B401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04FF776C2BC00D880022B401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FF776F2BC00D880022B401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FF77722BC00D880022B401 /* GmailButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GmailButton.xcdatamodel; sourceTree = "<group>"; };
+		04FF77742BC00D8D0022B401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FF77772BC00D8D0022B401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FF77792BC00D8D0022B401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FF777E2BC00D8D0022B401 /* GmailButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GmailButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FF77822BC00D8D0022B401 /* GmailButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailButtonTests.swift; sourceTree = "<group>"; };
+		04FF77882BC00D8E0022B401 /* GmailButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GmailButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FF778C2BC00D8E0022B401 /* GmailButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailButtonUITests.swift; sourceTree = "<group>"; };
+		04FF778E2BC00D8E0022B401 /* GmailButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FF77622BC00D880022B401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FF777B2BC00D8D0022B401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FF77852BC00D8E0022B401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FF775C2BC00D880022B401 = {
+			isa = PBXGroup;
+			children = (
+				04FF77672BC00D880022B401 /* GmailButton */,
+				04FF77812BC00D8D0022B401 /* GmailButtonTests */,
+				04FF778B2BC00D8E0022B401 /* GmailButtonUITests */,
+				04FF77662BC00D880022B401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FF77662BC00D880022B401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FF77652BC00D880022B401 /* GmailButton.app */,
+				04FF777E2BC00D8D0022B401 /* GmailButtonTests.xctest */,
+				04FF77882BC00D8E0022B401 /* GmailButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FF77672BC00D880022B401 /* GmailButton */ = {
+			isa = PBXGroup;
+			children = (
+				04FF77682BC00D880022B401 /* AppDelegate.swift */,
+				04FF776A2BC00D880022B401 /* SceneDelegate.swift */,
+				04FF776C2BC00D880022B401 /* ViewController.swift */,
+				04FF776E2BC00D880022B401 /* Main.storyboard */,
+				04FF77742BC00D8D0022B401 /* Assets.xcassets */,
+				04FF77762BC00D8D0022B401 /* LaunchScreen.storyboard */,
+				04FF77792BC00D8D0022B401 /* Info.plist */,
+				04FF77712BC00D880022B401 /* GmailButton.xcdatamodeld */,
+			);
+			path = GmailButton;
+			sourceTree = "<group>";
+		};
+		04FF77812BC00D8D0022B401 /* GmailButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FF77822BC00D8D0022B401 /* GmailButtonTests.swift */,
+			);
+			path = GmailButtonTests;
+			sourceTree = "<group>";
+		};
+		04FF778B2BC00D8E0022B401 /* GmailButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FF778C2BC00D8E0022B401 /* GmailButtonUITests.swift */,
+				04FF778E2BC00D8E0022B401 /* GmailButtonUITestsLaunchTests.swift */,
+			);
+			path = GmailButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FF77642BC00D880022B401 /* GmailButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FF77922BC00D8E0022B401 /* Build configuration list for PBXNativeTarget "GmailButton" */;
+			buildPhases = (
+				04FF77612BC00D880022B401 /* Sources */,
+				04FF77622BC00D880022B401 /* Frameworks */,
+				04FF77632BC00D880022B401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GmailButton;
+			productName = GmailButton;
+			productReference = 04FF77652BC00D880022B401 /* GmailButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FF777D2BC00D8D0022B401 /* GmailButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FF77952BC00D8E0022B401 /* Build configuration list for PBXNativeTarget "GmailButtonTests" */;
+			buildPhases = (
+				04FF777A2BC00D8D0022B401 /* Sources */,
+				04FF777B2BC00D8D0022B401 /* Frameworks */,
+				04FF777C2BC00D8D0022B401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FF77802BC00D8D0022B401 /* PBXTargetDependency */,
+			);
+			name = GmailButtonTests;
+			productName = GmailButtonTests;
+			productReference = 04FF777E2BC00D8D0022B401 /* GmailButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FF77872BC00D8E0022B401 /* GmailButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FF77982BC00D8E0022B401 /* Build configuration list for PBXNativeTarget "GmailButtonUITests" */;
+			buildPhases = (
+				04FF77842BC00D8E0022B401 /* Sources */,
+				04FF77852BC00D8E0022B401 /* Frameworks */,
+				04FF77862BC00D8E0022B401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FF778A2BC00D8E0022B401 /* PBXTargetDependency */,
+			);
+			name = GmailButtonUITests;
+			productName = GmailButtonUITests;
+			productReference = 04FF77882BC00D8E0022B401 /* GmailButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FF775D2BC00D880022B401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04FF77642BC00D880022B401 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04FF777D2BC00D8D0022B401 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04FF77642BC00D880022B401;
+					};
+					04FF77872BC00D8E0022B401 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04FF77642BC00D880022B401;
+					};
+				};
+			};
+			buildConfigurationList = 04FF77602BC00D880022B401 /* Build configuration list for PBXProject "GmailButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FF775C2BC00D880022B401;
+			productRefGroup = 04FF77662BC00D880022B401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FF77642BC00D880022B401 /* GmailButton */,
+				04FF777D2BC00D8D0022B401 /* GmailButtonTests */,
+				04FF77872BC00D8E0022B401 /* GmailButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FF77632BC00D880022B401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF77782BC00D8D0022B401 /* LaunchScreen.storyboard in Resources */,
+				04FF77752BC00D8D0022B401 /* Assets.xcassets in Resources */,
+				04FF77702BC00D880022B401 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FF777C2BC00D8D0022B401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FF77862BC00D8E0022B401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FF77612BC00D880022B401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF776D2BC00D880022B401 /* ViewController.swift in Sources */,
+				04FF77692BC00D880022B401 /* AppDelegate.swift in Sources */,
+				04FF77732BC00D880022B401 /* GmailButton.xcdatamodeld in Sources */,
+				04FF776B2BC00D880022B401 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FF777A2BC00D8D0022B401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF77832BC00D8D0022B401 /* GmailButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FF77842BC00D8E0022B401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF778D2BC00D8E0022B401 /* GmailButtonUITests.swift in Sources */,
+				04FF778F2BC00D8E0022B401 /* GmailButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FF77802BC00D8D0022B401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FF77642BC00D880022B401 /* GmailButton */;
+			targetProxy = 04FF777F2BC00D8D0022B401 /* PBXContainerItemProxy */;
+		};
+		04FF778A2BC00D8E0022B401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FF77642BC00D880022B401 /* GmailButton */;
+			targetProxy = 04FF77892BC00D8E0022B401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FF776E2BC00D880022B401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FF776F2BC00D880022B401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FF77762BC00D8D0022B401 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FF77772BC00D8D0022B401 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FF77902BC00D8E0022B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04FF77912BC00D8E0022B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FF77932BC00D8E0022B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GmailButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.GmailButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FF77942BC00D8E0022B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GmailButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.GmailButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04FF77962BC00D8E0022B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.GmailButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GmailButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GmailButton";
+			};
+			name = Debug;
+		};
+		04FF77972BC00D8E0022B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.GmailButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GmailButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GmailButton";
+			};
+			name = Release;
+		};
+		04FF77992BC00D8E0022B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.GmailButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GmailButton;
+			};
+			name = Debug;
+		};
+		04FF779A2BC00D8E0022B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.GmailButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GmailButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FF77602BC00D880022B401 /* Build configuration list for PBXProject "GmailButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FF77902BC00D8E0022B401 /* Debug */,
+				04FF77912BC00D8E0022B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FF77922BC00D8E0022B401 /* Build configuration list for PBXNativeTarget "GmailButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FF77932BC00D8E0022B401 /* Debug */,
+				04FF77942BC00D8E0022B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FF77952BC00D8E0022B401 /* Build configuration list for PBXNativeTarget "GmailButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FF77962BC00D8E0022B401 /* Debug */,
+				04FF77972BC00D8E0022B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FF77982BC00D8E0022B401 /* Build configuration list for PBXNativeTarget "GmailButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FF77992BC00D8E0022B401 /* Debug */,
+				04FF779A2BC00D8E0022B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FF77712BC00D880022B401 /* GmailButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FF77722BC00D880022B401 /* GmailButton.xcdatamodel */,
+			);
+			currentVersion = 04FF77722BC00D880022B401 /* GmailButton.xcdatamodel */;
+			path = GmailButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04FF775D2BC00D880022B401 /* Project object */;
+}
